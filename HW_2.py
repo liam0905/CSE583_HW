@@ -24,6 +24,7 @@ def analyze(df):
 
 if __name__ == "__main__":
 
-    pd.read_csv('hw2_data.csv')
-    df = pd.read_csv(sys.argv[1])
-    print(analyze(df))
+   # try::
+   # df = pd.read_csv(sys.argv[1])
+   # print(analyze(df))
+   # except 
